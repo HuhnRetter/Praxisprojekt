@@ -1,4 +1,4 @@
-#General
+# General
 
 This package is split into four separate files, which are grouped by the following topics:
 
