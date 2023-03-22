@@ -36,6 +36,7 @@ class ImageDataset(Dataset):
 
 class GetJigsawPuzzleDataset(Dataset):
     # Dataset used for training the Jigsaw Puzzle Pretext Task
+    # source: (https://github.com/aniket03/self_supervised_bird_classification)
 
     def __init__(self, root: str, folder: str, avail_permuts_file_path, range_permut_indices=None, transform=None,
                  extension: str = "jpg"):
